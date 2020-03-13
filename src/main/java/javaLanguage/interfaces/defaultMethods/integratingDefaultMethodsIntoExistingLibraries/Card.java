@@ -1,4 +1,4 @@
-package javaLanguage.inheritance;
+package javaLanguage.interfaces.defaultMethods.integratingDefaultMethodsIntoExistingLibraries;
 
 public interface Card extends Comparable<Card> {
     public enum Suit {

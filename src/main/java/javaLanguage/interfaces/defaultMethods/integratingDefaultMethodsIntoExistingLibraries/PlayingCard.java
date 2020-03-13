@@ -1,19 +1,19 @@
-package javaLanguage.inheritance;
+package javaLanguage.interfaces.defaultMethods.integratingDefaultMethodsIntoExistingLibraries;
 
 public class PlayingCard implements Card {
-    private Card.Rank rank;
-    private Card.Suit suit;
+    private Rank rank;
+    private Suit suit;
 
-    public PlayingCard(Card.Rank rank, Card.Suit suit) {
+    public PlayingCard(Rank rank, Suit suit) {
         this.rank = rank;
         this.suit = suit;
     }
 
-    public Card.Suit getSuit() {
+    public Suit getSuit() {
         return suit;
     }
 
-    public Card.Rank getRank() {
+    public Rank getRank() {
         return rank;
     }
 

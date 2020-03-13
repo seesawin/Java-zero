@@ -1,4 +1,4 @@
-package javaLanguage.inheritance;
+package javaLanguage.interfaces.defaultMethods.integratingDefaultMethodsIntoExistingLibraries;
 
 import java.util.*;
 import java.util.stream.Collectors;

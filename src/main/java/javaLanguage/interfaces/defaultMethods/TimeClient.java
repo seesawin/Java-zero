@@ -1,4 +1,4 @@
-package javaLanguage.interfaces;
+package javaLanguage.interfaces.defaultMethods;
 
 import java.time.DateTimeException;
 import java.time.LocalDateTime;
