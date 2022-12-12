@@ -12,5 +12,17 @@ public class TestExcel {
         final Workbook workbook = WorkbookFactory.create(is);
         final CustomerDTO dto = ExcelMappingEnum.parseExcel(workbook);
         System.out.println(dto.toString());
+
+        System.out.println(ImplMethodEnum.ID.getValue());
+        System.out.println(ImplMethodEnum.NAME.getValue());
+        System.out.println(ImplMethodEnum.AGE.getValue());
+
+        final NodeContainer nc = new NodeContainer();
+        ImplMethodEnum.ID.setValue(nc, "id");
+        System.out.println(nc.getValue());
+        ImplMethodEnum.NAME.setValue(nc, "name");
+        System.out.println(nc.getValue());
+        ImplMethodEnum.AGE.setValue(nc, "age");
+        System.out.println(nc.getValue());
     }
 }
